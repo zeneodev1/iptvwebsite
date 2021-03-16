@@ -81,6 +81,9 @@ header .subTitle {
     margin-bottom: 30px;
 }
 
+header img{
+    margin-bottom: 20px;
+}
 
 header .header_button {
     color: #2A8CB9;
