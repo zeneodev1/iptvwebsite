@@ -1,5 +1,9 @@
 /* body */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -33,6 +37,7 @@ body{
 .navbar .nav-link {
     color: #333!important;
     font-weight: 500;
+    cursor: pointer;
 }
 .navbar .nav-link:hover {
     color: #000!important;
@@ -144,8 +149,8 @@ header .header_button:hover {
 }
 
 .features_wrapper{
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .features_container{
@@ -220,7 +225,7 @@ header .header_button:hover {
 }
 
 .plans{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .plans_wrapper{
@@ -262,7 +267,7 @@ header .header_button:hover {
 .plan_item_container {
     text-align: center;
     padding: 40px 40px 20px 40px;
- 
+
 }
 
 .plan_item_container_wrapper ul li{
