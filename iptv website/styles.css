@@ -378,3 +378,53 @@ header .header_button:hover {
     font-size: 15px;
     color: gainsboro;
 }
+
+.contact_body{
+    height: 100px;
+    padding-right: 20px;
+}
+
+.rec_ad{
+    height: 100px;
+}
+
+.contact_body_container{
+    margin-top: 100px;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.contact_body h1{
+    margin-bottom: 2rem;
+}
+
+.contact_body textarea{
+    height: 110px;
+}
+
+.contact_body button{
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
+
+.contact_body .alert{
+    margin-bottom: 2rem;
+}
+
+.rec_ad{
+    text-align: center;
+    height: 600px;
+    border-radius: 8px;
+    background: rgb(240, 240, 240);
+}
+
+.rec_ad p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
